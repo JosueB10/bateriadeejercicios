@@ -1,0 +1,30 @@
+package Pagina1;
+
+import java.util.Scanner;
+
+public class MayorOIgual {
+
+	public static void main(String[] args) {
+		Scanner SC=new Scanner(System.in);
+		
+		int A,B;
+	System.out.println("Ingrese el primer valor : ");
+	 A = SC.nextInt();
+
+
+	System.out.println("Ingrese segundo valor : ");
+	B = SC.nextInt();
+	
+	
+	
+	if(A==B)
+    System.out.print("Los valores son iguales :D");
+  if(A>B)
+      System.out.print("El numero mayor es : " +A);
+  if(B>A)   
+      System.out.print("el numero mayor es : " +B);
+
+	SC.close();
+	}
+
+}
