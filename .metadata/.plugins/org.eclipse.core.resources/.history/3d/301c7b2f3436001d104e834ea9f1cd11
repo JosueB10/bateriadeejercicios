@@ -1,0 +1,20 @@
+package Pagina1;
+import java.util.Scanner;
+
+
+public class GradoSuperior {
+	public static void main(String [] args) {
+		
+		Scanner SC=new Scanner(System.in);
+		int TB,PA;
+		
+		
+		System.out.println("Bienvenido a curso de de grado superior");
+		System.out.println("Para acceder necesitas un titulo de bachiller.Tienes titulo de bachiller?");
+		System.out.println("1.Si  ");
+		System.out.println("2.No ");
+		
+		
+	}
+
+}

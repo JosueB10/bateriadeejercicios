@@ -1,0 +1,34 @@
+package Pagina1;
+import java.util.Scanner;
+
+public class PorcentajeAlumnos {
+
+	public static void main(String[] args) {
+		
+		Scanner SC=new Scanner(System.in);
+		int Ninos,Ninas,TotalAlum,PorNinos,PorNinas;
+		
+		
+		System.out.println("Ingrese el Total de alumnos en el curso: ");
+		TotalAlum=SC.nextInt();
+		
+		System.out.println("Ingrese el numero de Ninos en el curso: ");
+		Ninos=SC.nextInt();
+		
+		System.out.println("Ingrese el numero de Ninas en el curso: ");
+		Ninas=SC.nextInt();
+		
+		
+		PorNinos=(Ninos*100)/TotalAlum;
+		PorNinas=100-PorNinos;
+		
+		
+		System.out.println("El total de alumnos es de: "+TotalAlum);
+		System.out.println("El porcentaje de Ninos en el curso es de: "+PorNinos+"%" );
+		System.out.println("El porcentaje de ninas en el curso es de: "+PorNinas+"%" );
+		
+		
+	
+	}
+
+}

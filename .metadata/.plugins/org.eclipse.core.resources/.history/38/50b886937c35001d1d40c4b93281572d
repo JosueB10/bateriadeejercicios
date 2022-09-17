@@ -1,0 +1,41 @@
+package Pagina1;
+import java.util.Scanner;
+
+public class ParOImpar {
+
+	public static void main(String[] args) {
+		
+		int numero;
+        Scanner SC = new Scanner( System.in );
+
+        System.out.println( "Introduzca un numero entero: " );
+        numero = SC.nextInt();
+
+        
+        if(numero <= 0 ) {
+        	
+        	System.out.println("No es par ni impar");
+        if ( numero % 2 == 0 )
+        {
+            System.out.println( "ES PAR" );
+        }
+        else
+        {
+            System.out.println( "ES IMPAR" );
+        }
+        
+        
+        
+        
+        
+        }
+        
+        
+        
+        
+    }
+}
+
+	
+
+

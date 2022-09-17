@@ -1,0 +1,24 @@
+package Pagina2;
+import java.util.Scanner;
+public class CuadradoDePrimerosNumeroNaturales11 {
+	
+	public static void main (String [] args) {
+		
+		Scanner SC=new Scanner(System.in);
+		
+		int Inicio,Fin,Cont;
+		
+		Inicio=1;
+		Fin=9;
+		Cont=0;
+		
+		for (Cont=Inicio; Cont<=Inicio+8; Cont++){
+
+			System.out.println(Cont+"."+ "El cuadrado es: "+Cont*Cont);
+		
+		
+		
+	}
+
+}
+}
