@@ -9,8 +9,7 @@ public class PorcentajeAlumnos6 {
 		int Ninos,Ninas,TotalAlum,PorNinos,PorNinas,PorAlum;
 		
 		
-		System.out.println("Ingrese el Total de alumnos en el curso: ");
-		TotalAlum=SC.nextInt();
+		
 		
 		System.out.println("Ingrese el numero de Ninos en el curso: ");
 		Ninos=SC.nextInt();
@@ -18,12 +17,13 @@ public class PorcentajeAlumnos6 {
 		System.out.println("Ingrese el numero de Ninas en el curso: ");
 		Ninas=SC.nextInt();
 		
-		
+		TotalAlum=Ninos+Ninas;
 		PorNinos=(Ninos*100)/TotalAlum;
 		PorNinas=100-PorNinos;
 		PorAlum=100;
 		
 		System.out.println("El porcentaje de alumnos es del "+PorAlum+"%");
+		System.out.println("Hay "+TotalAlum+" alumnos en el curso");
 		System.out.println("El porcentaje de Ninos en el curso es de: "+PorNinos+"%" );
 		System.out.println("El porcentaje de Ninas en el curso es de: "+PorNinas+"%" );
 		

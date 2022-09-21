@@ -1,0 +1,28 @@
+package Pagina2;
+import java.util.Scanner;
+public class MediaAritmetica14 {
+	public static void main (String [] args) {
+		
+		Scanner SC=new Scanner(System.in);
+		
+		int Num,contador;
+		
+		
+		do {
+			System.out.println(" Ingrese numeros para calcular la media aritmetica y cuando ya quiera calcularla ingrese -1 ");
+            Num = SC.nextInt();
+        
+            if(Num<0) {
+         	   
+            }
+        }while (Num >=0 );
+        
+       
+		
+		
+		
+		
+		
+	}
+
+}
