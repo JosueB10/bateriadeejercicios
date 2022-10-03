@@ -18,7 +18,7 @@ while(num!=-1){
     b++;
 }
 System.out.println("La media aritmetica de los numeros ingresados es de: "+suma/(b-1));
-
+System.out.println("Fin del programa. Te amo Eli <3");
 SC.close();
 
 	}
